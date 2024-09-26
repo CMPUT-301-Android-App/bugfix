@@ -2,7 +2,7 @@ package com.example.bugfix;
 
 public abstract class Shape {
     private int x, y;
-    private String color = "pink";
+    private String color = "bone";
 
     public int getX() {
         return x;
