@@ -1,9 +1,8 @@
 package com.example.bugfix;
 
 public abstract class Shape {
-    String color = "emerald";
-
     private int x, y;
+    private String color = "bone";
 
     public int getX() {
         return x;
@@ -20,6 +19,4 @@ public abstract class Shape {
     public void setY(int y) {
         this.y = y;
     }
-
-
 }
